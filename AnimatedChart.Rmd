@@ -45,7 +45,7 @@ ani <- g +
   exit_fade() + 
   ease_aes('quadratic-in-out')
 
-animate(ani, width = 700, height = 432, fps = 25, duration = 30, renderer = av_renderer(), rewind = FALSE)
+animate(ani, width = 700, height = 432, fps = 25, duration = 30, rewind = FALSE)
 
 
 ```
